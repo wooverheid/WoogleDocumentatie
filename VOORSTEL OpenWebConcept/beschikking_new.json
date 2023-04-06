@@ -1,0 +1,35 @@
+{
+    "opub:baseUrl": "https://doi.wooverheid.nl/?doi=",
+    "opub:itemUrlFormat": "baseurl/dc:identifier",
+    "opub:items": [
+        {
+            "dc:title": "Betpoint Group Limited",
+            "opub:status": "Nieuw",
+            "dc:description": "Betpoint heeft online kansspelen aangeboden zonder vergunning. De Kansspelautoriteit legt een boete op van 1.787.000.",
+            "dc:dateModified": "1970-01-04T16:57:14",
+            "dc:identifier": "nl.ab5.2k.2023.1",
+            "dc:UUID": "34de7939-145a-4468-b529-087ad5741ee2",
+            "dc:datePublication": "2023-03-03",
+            "opub:theme": "recht",
+            "opub:subTheme": "kansspelen",
+            "opub:slug": "betpoint-group-limited",
+            "dc:publisher": "ab5",
+            "dc:type": "2k",
+            
+            "opub:dateDecision": "2022-12-20",
+            "opub:offender": "Betpoint Group Limited",
+            "opub:fine": "1.787.000",
+            "opub:content": "In dit bestuursakkoord is afgesproken door de koepelorganisaties, dat het waterschap en de gemeenten\r\nmoeten samenwerken in de afvalwaterketen \"als ware het \u00e9\u00e9n bedrijf \u2019. Hierbij geven de gemeente\r\nBarendrecht en het waterschap invulling aan de gezamenlijke doelstelling voor de afvalwaterketen.",
+            "opub:attachments": [
+                {
+                    "dc:source": "https://doi.wooverheid.nl/?doi=nl.ab5.2k.2023.1.bijlage.1",
+                    "dc:title": "Sanctiebesluit Betpoint"
+                },
+                {
+                    "dc:source": "https://doi.wooverheid.nl/?doi=nl.ab5.2k.2023.1.bijlage.2",
+                    "dc:title": "Openbaarmakingsbesluit Betpoint"
+                }
+            ]
+        }
+    ]
+}

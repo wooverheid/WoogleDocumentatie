@@ -1,0 +1,56 @@
+{   
+    "opub:baseUrl": "https://gemeentehw.nl/woo-verzoeken",
+    "opub:itemUrlFormat": "baseurl/dc:slug/dc:UUID",
+    "opub:items": [
+        {
+            "dc:title": "Woo-verzoek over een evenement dat plaatsvond op 27 augustus 2022",
+            "opub:status": "Nieuw",
+            "dc:description": "Verzoeker vraagt om informatie openbaar te maken over een ingediende melding van een evenement dat plaatsvond op 27 augustus 2022 en de bevestiging ervan.",
+            "dc:dateModified": "2022-12-27T23:00:00",
+            "dc:identifier": "Z.22.181444",
+            "dc:UUID": "34de7939-145a-4468-b529-087ad5741ee2",
+            "dc:datePublication": "2023-02-16",
+            "opub:theme": "Openbare orde en veiligheid",
+            "opub:slug": "woo-verzoek-over-een-evenement-dat-plaatsvond-op-27-augustus-2022",
+            "dc:publisher": "gm1963",
+            "dc:type": "2i",
+
+            "opub:handlingBody": "College van B&W",
+            "opub:firstRecipient": "Team Juridische Zaken",
+            "opub:htmlTable": "<table width=\"99%\" border=\"0\" cellpadding=\"1\" cellspacing=\"0\" ...",
+            "opub:requester": "Natuurlijk persoon",
+            "dc:dateRequest": "2022-12-28",
+            "dc:dateDecision": "2023-02-16",
+            "opub:decision": "Openbaar gemaakt",
+            "opub:adjourned": "Nee",
+            "opub:geographicalArea": "3264",
+            "opub:zipCode": "3264",
+
+            "dc:requestSource": "https:\/\/openpub.gemeentehw.nl\/index.php?gf-download=2023%2F02%2FWoo-verzoek_Geredigeerd.pdf&form-id=2&field-id=51&hash=b93e9b571d9eddd0ada735113e70ad339f191888d7f6af7c76d02a23c679e630",
+            "dc:decisionSource": "https:\/\/openpub.gemeentehw.nl\/index.php?gf-download=2023%2F02%2FWoo-besluit_Geredigeerd.pdf&form-id=2&field-id=52&hash=0c78b46fcb295696d4ee2b10a619e82bbec54c6345d0453d8199c89ee320cc67",
+            "opub:attachments": [
+                {
+                    "dc:type": "Inhoudelijk",
+                    "opub:status": "Nieuw",
+                    "dc:dateModified": "2022-02-15T23:00:00",
+                    "dc:title": "3.-Bevestiging-melding_Geredigeerd.pdf",
+                    "dc:source": "https:\/\/openpub.gemeentehw.nl\/index.php?gf-download=2023%2F02%2F3.-Bevestiging-melding_Geredigeerd.pdf&form-id=2&field-id=54&hash=f222bfcc44813f2a94583ab845a35f15c5b88b996700834dc86320833da81f95"
+                },
+                {
+                    "dc:type": "Inhoudelijk",
+                    "opub:status": "Nieuw",
+                    "dc:dateModified": "2022-02-15T23:00:00",
+                    "dc:title": "2.-Bijlage-melding-evenement.pdf",
+                    "dc:source": "https:\/\/openpub.gemeentehw.nl\/index.php?gf-download=2023%2F02%2F2.-Bijlage-melding-evenement.pdf&form-id=2&field-id=54&hash=f48af9ae18a1a49438ddb8e8e1aebcb0127f07d2023b91b8f956de8a987278c1"
+                },
+                {
+                    "dc:type": "Inhoudelijk",
+                    "opub:status": "Nieuw",
+                    "dc:dateModified": "2022-02-15T23:00:00",
+                    "dc:title": "1.-Melding-evenement_Geredigeerd.pdf",
+                    "dc:source": "https:\/\/openpub.gemeentehw.nl\/index.php?gf-download=2023%2F02%2F1.-Melding-evenement_Geredigeerd.pdf&form-id=2&field-id=54&hash=449879870b042dfd67dca5949bfc53e866e901c87b55ea65c6c807602f73c6ab"
+                }
+            ]
+        }
+    ]
+}

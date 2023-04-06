@@ -1,0 +1,41 @@
+[
+    { 
+        "dc_title": "Woo verzoek Asfaltcentrale",
+        "dc_description": "Naar aanleiding van een verzoek op grond van de Wet open overheid (Woo) om openbaarmaking van informatie omtrent asfaltcentrale aan de Asfaltstraat 13 te Lelystad., heeft het college besloten de gevraagde informatie, voor zover aanwezig, gedeeltelijk openbaar te maken.",
+        "dc_publisher": "pv24",
+        "dc_type": "2i",
+        "foi_requestDate": "2022-08-11",
+        "foi_decisionDate": "2022-09-27",
+        "foi_requestText": "U verzoekt, kort samengevat, openbaarmaking van Informatie met betrekking tot toezicht en handhaving asfaltcentrale aan de Asfaltstraat 13 te Lelystad.",
+        "foi_decisionText": "Wij besluiten de door u gevraagde informatie (gedeeltelijk) openbaar te maken. Voor een nadere specificatie per documenten verwijzen wij u naar de inventarislijst en de documenten.",
+        "foi_files": {
+            "foi_verzoek": {
+                "dc_title": "Verzoek Asfaltcentrale",
+                "dc_source": "https://www.flevoland.nl/getmedia/0c03a913-730c-4644-9ecd-e6b24604d165/Woo-verzoek-Asfaltcentrale-verzoek.pdf"  ,
+                "foi_url_on_web":"True" 
+            },
+            "foi_besluit": { 
+                "dc_title": "Besluit op verzoek Asfaltcentrale",
+                "dc_source": "https://www.flevoland.nl/getmedia/0c03a913-730c-4644-9ecd-e6b24604d165/Woo-verzoek-Asfaltcentrale-besluit.pdf" ,
+                "foi_url_on_web":"True" 
+            },
+            "foi_inventaris": { 
+                "dc_title": "Inventarislijst bij  Asfaltcentrale",
+                "dc_source": "https://www.flevoland.nl/getmedia/0c03a913-730c-4644-9ecd-e6b24604d165/Woo-verzoek-Asfaltcentrale-inventarislijst.csv" ,
+                "foi_url_on_web":"True" 
+            },
+            "foi_documenten": [ 
+                {
+                    "dc_title": "Email n.a.v. Asfaltcentrale",
+                    "dc_source": "https://www.flevoland.nl/getmedia/0c03a913-730c-4644-9ecd-e6b24604d165/Woo-verzoek-Asfaltcentrale-documenten.pdf" ,
+                    "foi_url_on_web":"True" 
+                },
+                {
+                    "dc_title": "Email2 n.a.v. Asfaltcentrale",
+                    "dc_source": "https://www.flevoland.nl/getmedia/0c03a913-730c-4644-9ecd-e6b24604d165/Woo-verzoek-Asfaltcentrale-documenten2.pdf" ,
+                    "foi_url_on_web":"True" 
+                }
+            ]
+        }
+    }
+]

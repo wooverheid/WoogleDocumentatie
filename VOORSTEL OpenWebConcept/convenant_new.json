@@ -1,0 +1,30 @@
+{
+    "opub:baseUrl": "https://barendrecht.nl/convenanten",
+    "opub:itemUrlFormat": "baseurl/dc:slug/dc:UUID",
+    "opub:items": [
+        {
+            "dc:title": "Afvalwaterakkoord",
+            "opub:status": "Nieuw",
+            "dc:description": "In dit bestuursakkoord is afgesproken door de koepelorganisaties, dat het waterschap en de gemeenten\r\nmoeten samenwerken in de afvalwaterketen \"als ware het \u00e9\u00e9n bedrijf \u2019. ",
+            "dc:dateModified": "1970-01-04T16:57:14",
+            "dc:identifier": "632927",
+            "dc:UUID": "34de7939-145a-4468-b529-087ad5741ee2",
+            "dc:datePublication": "2022-11-14",
+            "opub:theme": "Mileu",
+            "opub:subTheme": "Waterschap Hollandse Delta",
+            "opub:slug": "afvalwaterakkoord",
+            "dc:publisher": "gm0489",
+            "dc:type": "2f",
+
+            "opub:content": "In dit bestuursakkoord is afgesproken door de koepelorganisaties, dat het waterschap en de gemeenten\r\nmoeten samenwerken in de afvalwaterketen \"als ware het \u00e9\u00e9n bedrijf \u2019. Hierbij geven de gemeente\r\nBarendrecht en het waterschap invulling aan de gezamenlijke doelstelling voor de afvalwaterketen.",
+            "opub:validTime": "2022 tot 2025",
+            "dc:dateDecision": "2022-11-14",
+            "opub:attachments": [
+                {
+                    "dc:source": "https:\/\/openpub.barendrecht.nl\/wp-content\/uploads\/2023\/01\/Afvalwaterakkoord-WSHD-Barendrecht.pdf",
+                    "dc:title": "Afvalwaterakkoord WSHD-Barendrecht"
+                }
+            ]
+        }
+    ]
+}

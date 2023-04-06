@@ -1,0 +1,17 @@
+[
+    { 
+        "dc_title": "Woo verzoek Asfaltcentrale",
+        "dc_description": "Naar aanleiding van een verzoek op grond van de Wet open overheid (Woo) om openbaarmaking van informatie omtrent asfaltcentrale aan de Asfaltstraat 13 te Lelystad., heeft het college besloten de gevraagde informatie, voor zover aanwezig, gedeeltelijk openbaar te maken.",
+        "dc_date_year": 2022,
+        "dc_publisher": "WAARDE: tooiont:organisatie code. Bijvoorbeeld  pv24  voor de Provincie Flevoland. Dit is de tooiont:organisatie code voor pubisher: zie https://tardis.overheid.nl/waardelijsten.html en daarin de lijsten Register XXX compleet, voor XXX gemeentes, provincies, ministeries, waterschappen, etc.",
+        "dc_type": "2i",
+        "foi_files": {
+            "foi_documenten": [ 
+                {
+                    "dc_source": "WAARDE: Hyperlink naar zip of pdf bestand",
+                    "foi_url_on_web": "WAARDE: Als bestand op het web blijft staan: True. Anders: False. Default bij niet invullen: False.  "
+                } 
+            ]
+        }
+    }
+]
