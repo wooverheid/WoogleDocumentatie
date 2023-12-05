@@ -1,0 +1,129 @@
+{
+    "generic_valid_attributes": [
+        "dc_title",
+        "dc_description",
+        "dc_publisher",
+        "foi_publishedDate",
+        "dc_date_year",
+        "tooiwl_topic",
+        "tooiwl_rubriek",
+        "tooiwl_rubriekCode",
+        "dc_type",
+        "dc_source",
+        "dc_creator",
+        "foi_linkedDossier",
+        "foi_files"
+    ],
+
+    "generic_required_attributes": [
+        "dc_title",
+        "dc_publisher",
+        "dc_type"
+    ],
+
+    "1b-n_valid_attributes": [
+
+    ],
+
+    "1b-t_valid_attributes": [
+
+    ],
+
+    "1e-i_valid_attributes": [
+        "foi_updateDate"
+    ],
+
+    "1e_valid_attributes": [
+        "foaf_initials",
+        "foaf_name",
+        "foaf_firstName",
+        "foaf_lastName",
+        "foaf_mbox",
+        "foaf_phone",
+        "foaf_img",
+        "foi_city",
+        "foi_startDate",
+        "foi_endDate",
+        "foi_party",
+        "foi_partyName",
+        "foi_function",
+        "foaf_homepage",
+        "foi_linkedin",
+        "foi_mailAddress",
+        "foi_visitAddress",
+        "foi_academicTitle",
+        "foi_active",
+        "foi_updateDate",
+        "foi_fax",
+        "foi_wikipedia",
+        "foi_twitter",
+        "foi_retrievedDate",
+        "foi_rawFunction"
+    ],
+
+    "2d_valid_attributes": [
+        "foi_decisionDate"
+    ],
+
+    "2e-b_valid_attributes": [
+        "foi_decisionDate"
+    ],
+
+    "2f_valid_attributes": [
+        "foi_decisionDate"
+    ],
+    
+    "2i_valid_attributes": [
+        "foi_requestDate",
+        "foi_decisionDate",
+        "foi_isAdjourned",
+        "foi_requester",
+        "foi_requestText",
+        "foi_decisionText",
+        "foi_valuation"
+    ],
+
+    "2j_valid_attributes": [
+        "foi_decisionDate"
+    ],
+
+    "2k_valid_attributes": [
+        "foi_geoInfo",
+        "foi_startDate",
+        "foi_endDate",
+        "foi_subjectAddress",
+        "foi_subjectCoordinates"
+    ],
+
+    "document_valid_attributes": [
+        "dc_title",
+        "dc_source",
+        "foi_sentDate",
+        "dc_type",
+        "foi_documentType",
+        "foi_valuation",
+        "foi_groundsOfRefusal",
+        "foi_originator",
+        "foi_recipient",
+        "dc_description",
+        "foi_url_on_web"
+    ],
+
+    "document_required_attributes": [
+        "dc_source",
+        "foi_url_on_web"
+    ],
+
+    "dossier_valid_types": [
+        "1b-n",
+        "1b-t",
+        "1e-i",
+        "1e",
+        "2d",
+        "2e-b",
+        "2f",
+        "2i",
+        "2j",
+        "2k"
+    ]
+}
