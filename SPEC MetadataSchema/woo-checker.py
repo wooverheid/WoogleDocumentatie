@@ -96,8 +96,13 @@ def dossier_valid(dossier: dict, dossiernr: int) -> tuple:
 
 if __name__ == "__main__":
 
-    file_to_check = sys.argv[1]
-    dossiers = json.load(open(file_to_check))
+    try:
+        file_to_check = sys.argv[1]
+        dossiers = json.load(open(file_to_check))
+    except:
+        print("Please provide a valid JSON file!")
+        exit()
+
     if isinstance(dossiers, dict):
         dossiers = [dossiers]
 
