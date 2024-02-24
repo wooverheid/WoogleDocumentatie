@@ -12,6 +12,8 @@
 
 ## Open overheid
 
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenOverheid.py).
+
 ### Dagelijks
 Dagelijks halen we alle Woo-dossiers op van het afgelopen jaar via de link: https://open.overheid.nl/zoekresultaten?datumrange=afgelopen-jaar&informatiesoort=c_4f50ca9c door middel van een webscraper. In deze lijst worden ook onderdelen (= losse documenten) van Woo-dossiers opgenomen. Om dubbelen te voorkomen worden deze gefilterd door:
 
@@ -27,12 +29,16 @@ Wekelijks halen we alle Woo-dossiers op van alle jaren via de link: https://open
 
 ## OpenWoo
 
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenWoo.py).
+
 ### Dagelijks
 Dagelijks worden alle publicaties opgehaald door middel van de API van OpenWoo. Deze worden verwerkt en omgeschreven naar voor ons relevante metadata. De URL naar deze API is: https://api.common-gateway.commonground.nu/api/publicaties. Publicaties zonder bron url (`portalUrl` in de API) worden overgeslagen. Geselecteerde dossiers hebben als `categorie` 'Woo verzoek' in de API.
 
 De dossiers en documenten worden bij ons geupload als ze geen bekende URL hebben. Dit betekent ook dat wijzigingen achteraf in bij ons bekende dossiers **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.
 
 ## Gemeente Den Haag
+
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderDenHaag.py).
 
 ### Dagelijks
 Dagelijks worden alle publicaties opgehaald van de website van de gemeente Den Haag. Dit gebeurt door middel van een webscraper. De URL naar deze pagina is: https://woo.denhaag.nl/wob-besluiten/. 
@@ -41,12 +47,16 @@ De dossiers en documenten worden bij ons geupload als ze geen bekende URL hebben
 
 ## Tweede Kamer
 
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderTweedeKamer.py).
+
 ### Dagelijks
 Dagelijks worden alle publicaties opgehaald van de website van de Tweede Kamer. Dit gebeurt door middel van een webscraper. De URL naar deze pagina is: https://www.tweedekamer.nl/contact-en-bezoek/wet-open-overheid-woo/woo-besluiten.
 
 De dossiers en documenten worden bij ons geupload als ze geen bekende URL hebben. Dit betekent ook dat wijzigingen achteraf in bij ons bekende dossiers **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.
 
 ## Gemeente Dordrecht
+
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderDordrecht.py).
 
 ### Dagelijks
 Dagelijks worden alle publicaties opgehaald van de website van de gemeente Dordrecht. Dit gebeurt door middel van een webscraper. De URL naar deze pagina is: https://cms.dordrecht.nl/Inwoners/Overzicht_Inwoners/Wet_open_overheid/Afgehandelde_Woo_verzoeken. 

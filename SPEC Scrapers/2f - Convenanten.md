@@ -8,6 +8,8 @@
 
 ## Open overheid
 
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenOverheid.py).
+
 ### Dagelijks
 Dagelijks halen we alle convenanten op van het afgelopen jaar via de link: https://open.overheid.nl/zoekresultaten?informatiesoort=c_386e74cb&datumrange=afgelopen-jaar door middel van een webscraper. In deze lijst worden ook onderdelen (= losse documenten) van Woo-dossiers opgenomen. Om dubbelen te voorkomen worden deze gefilterd door:
 
@@ -22,6 +24,8 @@ De convenanten en documenten worden bij ons geupload als ze geen bekende URL heb
 Wekelijks halen we alle convenanten op van alle jaren via de link: https://open.overheid.nl/zoekresultaten?informatiesoort=c_386e74cb door middel van een webscraper. Op deze manier hopen we ook later geplaatste documenten op te vangen. De verwerking is identiek aan de dagelijkse verwerking.
 
 ## OpenWoo
+
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenWoo.py).
 
 ### Dagelijks
 Dagelijks worden alle publicaties opgehaald door middel van de API van OpenWoo. Deze worden verwerkt en omgeschreven naar voor ons relevante metadata. De URL naar deze API is: https://api.common-gateway.commonground.nu/api/publicaties. Publicaties zonder bron url (`portalUrl` in de API) worden overgeslagen. Geselecteerde dossiers hebben als `categorie` 'Convenant' in de API.

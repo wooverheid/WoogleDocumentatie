@@ -8,6 +8,8 @@
 
 ## Open overheid
 
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenOverheid.py).
+
 ### Dagelijks
 Dagelijks halen we alle agendas en besluitenlijsten van het **afgelopen jaar** op via de link: https://open.overheid.nl/zoekresultaten?informatiesoort=c_f90465b3&datumrange=afgelopen-jaar door middel van een webscraper. 
 

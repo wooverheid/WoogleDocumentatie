@@ -9,6 +9,8 @@
 
 ## OpenPub
 
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenpubNews.py).
+
 ### Dagelijks
 Dagelijks halen we alle nieuwsberichten op door middel van de API van openpub voor de volgende gemeenten:
 - [Lansingerland](https://openpub.lansingerland.nl/wp-json/owc/openpub/v1/items)
@@ -33,6 +35,10 @@ Dagelijks halen we alle nieuwsberichten op door middel van de API van openpub vo
 De nieuwsberichten worden bij ons geupload als ze geen bekende URL hebben. Dit betekent ook dat wijzigingen achteraf in bij ons bekende nieuwsberichten **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan. 
 
 ## OpenGemeenten
+
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenGemeenten.py).
+
+### Dagelijks
 Dagelijks halen we alle nieuwsberichten op door middel van een RSS feed van opengemeenten voor de volgende gemeenten:
 - [Westland](https://www.gemeentewestland.nl/nieuws.rss)
 - [Bergen (NH)](https://www.bergen-nh.nl/nieuws.rss)
@@ -67,6 +73,8 @@ Dagelijks halen we alle nieuwsberichten op door middel van een RSS feed van open
 De nieuwsberichten worden bij ons geupload als ze geen bekende URL hebben. Dit betekent ook dat wijzigingen achteraf in bij ons bekende nieuwsberichten **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.
 
 ## NVWA
+
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderNVWA.py).
 
 ### Dagelijks
 Dagelijks halen we alle nieuwsberichten op van de NVWA via de link: https://www.nvwa.nl/nieuws-en-media/nieuws door middel van een webscraper.

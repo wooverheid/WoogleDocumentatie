@@ -8,6 +8,8 @@
 
 ## Open overheid
 
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenOverheid.py).
+
 ### Dagelijks
 Dagelijks halen we alle beslisnotas voor alle **ministeries** van de **afgelopen maand** op via de link: https://open.overheid.nl/zoekresultaten?informatiesoort=c_2977c34f&filter-id--organisatie=mini&organisatie=mnre1010&organisatie=mnre1034&organisatie=mnre1013&organisatie=mnre1018&organisatie=mnre1040&organisatie=mnre1045&organisatie=mnre1090&organisatie=mnre1130&organisatie=mnre1058&organisatie=mnre1150&organisatie=mnre1153&organisatie=mnre1109&organisatie=mnre1073&organisatie=mnre1025&datumrange=afgelopen-maand door middel van een webscraper. 
 
