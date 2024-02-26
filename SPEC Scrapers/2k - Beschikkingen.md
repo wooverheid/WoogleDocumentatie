@@ -17,5 +17,5 @@ Ditzelfde wordt gedaan voor beschikkingen van de **staatscourant**, met beschikk
 De bestanden worden bij ons geupload als ze geen bekende URL hebben. Dit betekent ook dat wijzigingen achteraf in bij ons bekende bestanden **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.
 
 ### Wekelijks/maandelijks
-TODO
+Er worden geen beschikkingen wekelijks of maandelijks opgehaald wegens de enorme omvang van dit corpus. We gaan er vanuit dat de dagelijkse updates voldoende zijn, en dat er geen publicaties in het verleden zijn.
 

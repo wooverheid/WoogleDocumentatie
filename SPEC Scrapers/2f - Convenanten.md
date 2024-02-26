@@ -11,7 +11,7 @@
 Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderOpenOverheid.py).
 
 ### Dagelijks
-Dagelijks halen we alle convenanten op van het afgelopen jaar via de link: https://open.overheid.nl/zoekresultaten?informatiesoort=c_386e74cb&datumrange=afgelopen-jaar door middel van een webscraper. In deze lijst worden ook onderdelen (= losse documenten) van Woo-dossiers opgenomen. Om dubbelen te voorkomen worden deze gefilterd door:
+Dagelijks halen we alle convenanten op via de link: https://open.overheid.nl/zoekresultaten?informatiesoort=c_386e74cb door middel van een webscraper. In deze lijst worden ook onderdelen (= losse documenten) van Woo-dossiers opgenomen. Om dubbelen te voorkomen worden deze gefilterd door:
 
 - In de lijst te kijken of het type document 'Convenant (onderdeel)' is:
 ![oo_2f_1](img/filter_oo_2f_1.png)
@@ -19,9 +19,6 @@ Dagelijks halen we alle convenanten op van het afgelopen jaar via de link: https
 ![oo_2f_2](img/filter_oo_2f_2.png)
 
 De convenanten en documenten worden bij ons geupload als ze geen bekende URL hebben. Dit betekent ook dat wijzigingen achteraf in bij ons bekende convenanten **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.
-
-### Wekelijks
-Wekelijks halen we alle convenanten op van alle jaren via de link: https://open.overheid.nl/zoekresultaten?informatiesoort=c_386e74cb door middel van een webscraper. Op deze manier hopen we ook later geplaatste documenten op te vangen. De verwerking is identiek aan de dagelijkse verwerking.
 
 ## OpenWoo
 
