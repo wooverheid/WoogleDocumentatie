@@ -61,6 +61,17 @@
         "foi_rawFunction"
     ],
 
+    "2b_valid_attributes": [
+        "dc_externalIdentifier",
+        "foi_meetingYear",
+        "foi_meetingDate",
+        "foi_meetingNumber",
+        "foi_meetingItemNumber",
+        "foi_handelingType",
+        "foi_startPage",
+        "foi_endPage"
+    ],
+
     "2d_valid_attributes": [
         "foi_decisionDate"
     ],
