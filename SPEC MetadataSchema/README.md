@@ -9,7 +9,9 @@ Versie 2.0 - Universiteit van Amsterdam - Maik Larooij, Maarten Marx
     * [Toespraken (categorie 1b-t)](#toespraken--categorie-1b-t-)
     * [Bereikbaarheidsgegevens (categorie 1e)](#bereikbaarheidsgegevens--categorie-1e-)
     * [Verwijsindex (categorie 1e-i)](#verwijsindex--categorie-1e-i-)
+    * [Vergaderstukken Staten-Generaal (categorie 2b)](#vergaderstukken-staten-generaal--categorie-2b-)
     * [Agenda/besluitenlijst (categorie 2d)](#agenda-besluitenlijst--categorie-2d-)
+    * [Adviezen (categorie 2e)](#adviezen--categorie-2e-)
     * [Advies: beslisnota (categorie 2e-b)](#advies--beslisnota--categorie-2e-b-)
     * [Convenanten (2f)](#convenanten--2f-)
     * [Woo/Wob-verzoeken (categorie 2i)](#woo-wob-verzoeken--categorie-2i-)
@@ -115,6 +117,11 @@ Deze hebben we nu enkel samengesteld voor de categorie 'Woo/Wob-verzoeken'. De s
 | **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
 |-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | 1    | foi_decisionDate    | Besluitdatum | Datum van besluit op agenda/lijst.                                                | 2023-12-05                                                                                                          |
+
+### Adviezen (categorie 2e)
+| **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
+|-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 1    | foi_decisionDate    | Besluitdatum | Datum van besluit op advies.                                              | 2023-12-05                                                                                                          |
 
 ### Advies: beslisnota (categorie 2e-b)
 | **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
