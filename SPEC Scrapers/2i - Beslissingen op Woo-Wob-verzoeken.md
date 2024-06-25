@@ -8,6 +8,7 @@
 - [Tweede Kamer](https://www.tweedekamer.nl/)
 - [Gemeente Utrecht](https://www.utrecht.nl/) (momenteel uitgeschakeld)
 - [Rijkswaterstaat](https://www.open.rijkswaterstaat.nl/)
+- [Provincie Groningen](https://www.provinciegroningen.nl/contact/woo-besluiten/)
 
 [Hier](../SPEC%20MetadataSchema/README.md) zijn alle metadata velden te vinden die we (indien beschikbaar) opslaan.
 
@@ -70,5 +71,14 @@ Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/S
 
 ### Dagelijks
 Dagelijks worden alle publicaties opgehaald van de website van Rijkswaterstaat. Dit gebeurt door middel van een webscraper. De URL naar deze pagina is: https://open.rijkswaterstaat.nl/open-overheid/woo-verzoeken/. 
+
+De dossiers en documenten worden bij ons geupload als ze geen bekende URL hebben. Dit betekent ook dat wijzigingen achteraf in bij ons bekende dossiers **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.
+
+## Provincie Groningen
+
+Scraper source op [Github](https://github.com/wooverheid/WooScrapers/blob/main/Spiders/SpiderProvGroningen.py)
+
+### Dagelijks
+Dagelijks worden alle publicaties opgehaald van de website van de Provincie Groningen. Dit gebeurt door middel van een webscraper. De URL naar deze pagina is: https://www.provinciegroningen.nl/contact/woo-besluiten/.
 
 De dossiers en documenten worden bij ons geupload als ze geen bekende URL hebben. Dit betekent ook dat wijzigingen achteraf in bij ons bekende dossiers **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.
