@@ -10,6 +10,7 @@ Versie 2.0 - Universiteit van Amsterdam - Maik Larooij, Maarten Marx
     * [Bereikbaarheidsgegevens (categorie 1e)](#bereikbaarheidsgegevens--categorie-1e-)
     * [Verwijsindex (categorie 1e-i)](#verwijsindex--categorie-1e-i-)
     * [Vergaderstukken Staten-Generaal (categorie 2b)](#vergaderstukken-staten-generaal--categorie-2b-)
+    * [Vergaderstukken decentrale overheden (categorie 2c)](#vergaderstukken-decentrale-overheden--categorie-2c-)
     * [Agenda/besluitenlijst (categorie 2d)](#agenda-besluitenlijst--categorie-2d-)
     * [Adviezen (categorie 2e)](#adviezen--categorie-2e-)
     * [Advies: beslisnota (categorie 2e-b)](#advies--beslisnota--categorie-2e-b-)
@@ -102,7 +103,7 @@ Deze hebben we nu enkel samengesteld voor de categorie 'Woo/Wob-verzoeken'. De s
 ### Vergaderstukken Staten-Generaal (categorie 2b)
 | **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
 |-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| 1    | foi_identifierSuffix    | Suffix voor identifier | Kan worden gebruikt om handmatig het laatste deel van de identifier in te voegen.                                                | 19-21                                                                                                         |
+| 1    | foi_identifierSuffix    | Suffix voor identifier | Kan worden gebruikt om handmatig het laatste deel van de identifier in te voegen. Bijvoorbeeld de combinatie {foi_meetingNumber}-{foi_meetingItemNumber}                                               | 19-21                                                                                                         |
 | 2    | dc_externalIdentifier    | Externe identifier | Identifier gebruikt door externe partij                                                | h-tk-20232024-25-15                                                                                                         |
 | 3 | foi_meetingYear | Vergaderjaar | Vergaderjaar van de vergadering | 2023-2024 |
 | 4 | foi_meetingDate | Vergaderdatum | Datum van de vergadering | 2023-12-05 |
@@ -111,6 +112,17 @@ Deze hebben we nu enkel samengesteld voor de categorie 'Woo/Wob-verzoeken'. De s
 | 7 | foi_handelingType | Handelingtype | Type handeling, bijvoorbeeld 'Stemmingen', 'Plenair debat' | Stemmingen |
 | 8 | foi_startPage | Startpagina | Startpagina van het document (voor oudere handelingen) | 301 |
 | 9 | foi_endPage | Eindpagina | Eindpagina van het document (voor oudere handelingen) | 305 |
+
+### Vergaderstukken decentrale overheden (categorie 2c)
+| **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
+|-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 1    | foi_identifierSuffix    | Suffix voor identifier | Kan worden gebruikt om handmatig het laatste deel van de identifier in te voegen. Bijvoorbeeld de combinatie {foi_meetingNumber}-{foi_meetingItemNumber}                                               | 19-21                                                                                                         |
+| 2    | dc_externalIdentifier    | Externe identifier | Identifier gebruikt door externe partij                                                | h-tk-20232024-25-15                                                                                                         |
+| 3 | foi_meetingYear | Vergaderjaar | Vergaderjaar van de vergadering | 2023-2024 of 2024 |
+| 4 | foi_meetingDate | Vergaderdatum | Datum van de vergadering | 2023-12-05 |
+| 5 | foi_meetingNumber | Vergadernummer | Nummer van de vergadering | 25 |
+| 6 | foi_meetingItemNumber | Agendapuntnummer | Nummer van het agendapunt | 15 |
+| 7 | foi_handelingType | Handelingtype | Type handeling, bijvoorbeeld 'Stemmingen', 'Plenair debat' | Stemmingen |
 
 
 ### Agenda/besluitenlijst (categorie 2d)

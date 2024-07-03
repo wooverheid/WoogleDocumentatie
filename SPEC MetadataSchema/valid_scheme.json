@@ -72,6 +72,15 @@
         "foi_endPage"
     ],
 
+    "2c_valid_attributes": [
+        "dc_externalIdentifier",
+        "foi_meetingYear",
+        "foi_meetingDate",
+        "foi_meetingNumber",
+        "foi_meetingItemNumber",
+        "foi_handelingType"
+    ],
+
     "2d_valid_attributes": [
         "foi_decisionDate"
     ],
