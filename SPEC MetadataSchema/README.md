@@ -99,6 +99,16 @@ Deze hebben we nu enkel samengesteld voor de categorie 'Woo/Wob-verzoeken'. De s
 | **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
 |-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | 1    | foi_updateDate    | Datum update gegevens | Datum van de laatste update van de gegevens                                                  | 2023-12-05                                                                                                          |
+| 2    | foi_wooIndexURL    | URL Woo index | Link naar betreffende Woo-index pagina                                                  | https://organisaties.overheid.nl/woo/35934/Gemeente_Achtkarspelen                                                                                                         |
+| 3 | foi_wooIndexRequestURL | URL Woo verzoek indienen | Link naar pagina om digitaal een Woo-verzoek in te dienen | https://www.zeewolde.nl/informatie-opvragen-via-woo-en-who |
+| 4 | foi_wooIndexRequestInfoURL | URL Woo verzoek info | Link naar pagina met informatie om een Woo-verzoek in te dienen | https://www.ameland.nl/woo-verzoeken |
+| 5 | foi_wooIndexRequestAddress | Adres Woo verzoek indienen | (Fysiek) Adres om een Woo-verzoek in te dienen | Postbus 22 Jelmeraweg 1 9162 EA Ballum |
+| 6  | foi_wooIndexContactName | Contactpersoon | Naam van de contactpersoon voor Woo-verzoeken | Dhr. J. de Vries |
+| 7  | foi_wooIndexContactEmail | Contactpersoon e-mail | E-mailadres van de contactpersoon voor Woo-verzoeken | gemeente@opsterland.nl |
+| 8  | foi_wooIndexContactPhone | Contactpersoon telefoon | Telefoonnummer van de contactpersoon voor Woo-verzoeken | 0512-386222 |
+| 9 | foi_wooIndexContactInternet | Contactpersoon URL | URL Woo-contactpersoon | https://blaricum.nl/Bestuur_en_organisatie/Organisatie/Woo_verzoek |
+| 10 | foi_wooIndexNrOfCategories | Aantal unieke categorieën | Aantal unieke categorieën in de Woo-index | 5 |
+
 
 ### Vergaderstukken Staten-Generaal (categorie 2b)
 | **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
@@ -186,6 +196,7 @@ Deze hebben we nu enkel samengesteld voor de categorie 'Woo/Wob-verzoeken'. De s
 | 9     | dc_description      | Beschrijving    | Beschrijving van het document.                                                                     | Reactie minister op brief van 2023-01-20                                     |
 | 10 | foi_groundsOfRefusal | Weigeringsgronden | Weigeringsgronden van het document (wetcode) | 2.1.e |
 | 11 | foi_valuation | Beoordeling | Beoordeling ('deels openbaar', 'openbaar', 'niet openbaar', 'reeds openbaar') | Deels openbaar |
+| 12 | foi_handelingReference | Handeling referenties | Dict met metadata voor handeling referenties | Mogelijke velden: 'dc_externalIdentifierReference' (referentie naar stuk, bijvoorbeeld 28828-58, dossiernummer en stuknummer), 'dc_type' (type stuk, meestal Kamerstuk), 'dc_subType' (subtype van kamerstuk, bijvoorbeeld Brief of Motie), 'foi_dossierNumber', 'foi_subNumber', 'foi_publishedDate', 'foi_sumitter' (indiener van het stuk)|
 
 Verder zijn er nog een aantal attributen die wij voor onze eigen doeleinden ophalen uit de documenten, zoals de tekst, tekst na OCR, aantal woorden, aantal karakters etcetera.
 

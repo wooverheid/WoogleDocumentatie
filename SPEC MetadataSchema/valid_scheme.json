@@ -30,7 +30,16 @@
     ],
 
     "1e-i_valid_attributes": [
-        "foi_updateDate"
+        "foi_updateDate",
+        "foi_wooIndexURL",
+        "foi_wooIndexRequestURL",
+        "foi_wooIndexRequestInfoURL",
+        "foi_wooIndexRequestAddress",
+        "foi_wooIndexContactName",
+        "foi_wooIndexContactEmail",
+        "foi_wooIndexContactPhone",
+        "foi_wooIndexContactInternet",
+        "foi_wooIndexNrOfCategories"
     ],
 
     "1e_valid_attributes": [
@@ -130,7 +139,8 @@
         "foi_originator",
         "foi_recipient",
         "dc_description",
-        "foi_url_on_web"
+        "foi_url_on_web",
+        "foi_handelingReference"
     ],
 
     "document_required_attributes": [
