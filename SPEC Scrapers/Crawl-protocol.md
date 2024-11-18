@@ -13,10 +13,3 @@ We zijn aangesloten op een aantal API's. Deze werken min of meer volgens de volg
 2. De gevonden dossiers worden vertaald naar een formaat dat wij kunnen verwerken. Dat betekent het koppelen van de attribuutnamen van de API aan de attribuutnamen van Woogle.
 3. De dossiers worden gefilterd op basis van de URL. Als de URL al bekend is in onze database, dan wordt deze overgeslagen. Dit betekent ook dat wijzigingen achteraf in bij ons bekende dossiers **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.
 4. De API produceert een lijst met dossiers en metadata in JSON formaat, die vervolgens kan worden geupload naar onze database.
-
-## SFTP
-We gebruiken de SFTP server van officielebekendmakingen. Dit werkt ongeveer als volgt:
-1. Op basis van gezette filters (organisatietype, startdatum, einddatum) worden de relevante XML bestanden (beschikkingen) opgehaald van de SFTP server.
-2. De XML bestanden worden ingelezen en verwerkt tot compacte JSON bestanden. Hierbij worden de attribuutnamen van de XML bestanden vertaald naar de attribuutnamen van Woogle.
-3. De dossiers worden op basis van de naam van het bestuursorgaan gelinkt aan de juiste TOOI code (= unieke code voor bestuursorganen).
-4. De bestanden worden gefilterd op basis van de URL. Als de URL al bekend is in onze database, dan wordt deze overgeslagen. Dit betekent ook dat wijzigingen achteraf in bij ons bekende bestanden **niet** worden doorgevoerd. Ook worden ze niet verwijderd als ze niet meer op de bron website staan.

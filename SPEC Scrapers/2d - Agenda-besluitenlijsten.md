@@ -1,7 +1,6 @@
 # 2d - Agenda-besluitenlijsten
 
 ## Overzicht scrapers
-
 - [Open overheid](https://open.overheid.nl/)
 
 [Hier](../SPEC%20MetadataSchema/README.md) zijn alle metadata velden te vinden die we (indien beschikbaar) opslaan.
