@@ -49,6 +49,7 @@ De volgende attributen kunnen worden ingezet voor elke informatiecategorie. Deze
 | 9    | dc_creator          | Maker               | Maker van de publicatie in onze database (meestal ook de TOOI code, of bijvoorbeeld een Scraper-versie).                                                                                                      | `gm1963`                                                                                                                                                                                                                                                                                           |
 | 10    | foi_linkedDossier   | Gelinkt dossier     | Eerste aanzet tot het mogelijk maken van 'linken' van dossier, bijvoorbeeld deelbesluiten. Waarde is dan de identifier van het gelinkte dossier.                                                              | `nl.gm1963.2i.2022.11`                                                                                                                                       |
 | 11    | foi_files  | Documenten   | Lijst met documenten volgens [specificatie](#woo-basis-voor-losse-documenten).                                                               | `nl.gm1963.2i.2022.11.1`                                                                                                                                     |
+| 12    | foi_extraMetadata  | Extra metadata   | Vrije dictionary (`{'attribuut': 'waarde'}`)   | `{"Status": "Resultaat gepubliceerd"}`                                                                                                                                     |
 
 ### Verplichtingen
 Voor onze doeleinden verplichten wij bij het insturen enkel de volgende velden:
@@ -150,6 +151,13 @@ Deze hebben we nu enkel samengesteld voor de categorie 'Woo/Wob-verzoeken'. De s
 |-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | 1    | foi_decisionDate    | Besluitdatum | Datum van besluit op beslisnota.                                         | 2023-12-05                                                                                                          |
 
+### Advies: internetconsultatie (categorie 2e-i)
+| **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
+|-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 1    | foi_startDate    | Startdatum | Startdatum consulatite                                         | 2023-12-05                                                                                                          |
+| 2    | foi_endDate    | Einddatum | Einddatum consultatie (sluiting)                                        | 2024-12-05                                                                                                          |
+
+
 ### Convenanten (2f)
 | **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
 |-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -197,12 +205,14 @@ Deze hebben we nu enkel samengesteld voor de categorie 'Woo/Wob-verzoeken'. De s
 | 10 | foi_groundsOfRefusal | Weigeringsgronden | Weigeringsgronden van het document (wetcode) | 2.1.e |
 | 11 | foi_valuation | Beoordeling | Beoordeling ('deels openbaar', 'openbaar', 'niet openbaar', 'reeds openbaar') | Deels openbaar |
 | 12 | foi_handelingReference | Handeling referenties | Dict met metadata voor handeling referenties | Mogelijke velden: 'dc_externalIdentifierReference' (referentie naar stuk, bijvoorbeeld 28828-58, dossiernummer en stuknummer), 'dc_type' (type stuk, meestal Kamerstuk), 'dc_subType' (subtype van kamerstuk, bijvoorbeeld Brief of Motie), 'foi_dossierNumber', 'foi_subNumber', 'foi_publishedDate', 'foi_sumitter' (indiener van het stuk)|
+| 13 | foi_bodyText  | Tekst document  | String met de tekst van het document -> wordt omgezet naar een `.txt` bestand. Gebruik `foi_fileName` om een bestandsnaam in te stellen, bijvoorbeeld `pagina_tekst.txt`.  | "Besluit genomen op...."                                                                                                                                    |
 
 Verder zijn er nog een aantal attributen die wij voor onze eigen doeleinden ophalen uit de documenten, zoals de tekst, tekst na OCR, aantal woorden, aantal karakters etcetera.
 
 ### Verplichtingen
 Voor documenten is niet zoveel verplicht, we willen in ieder geval de URL hebben om hem op te halen (dc_source). Hier halen we zelf al veel uit. Een ID (dc_identifier) genereren we zelf.
 - URL (dc_source)
+    - Uitzondering: als het document `foi_bodyText` heeft, is de URL niet verplicht. Op de achtergrond wordt dan een bestand opgeslagen met de tekst van het document en `foi_url_on_web` wordt op `False` gezet.
 - Staat de URL op het web? (foi_url_on_web)
 
 ## Voorbeelden
