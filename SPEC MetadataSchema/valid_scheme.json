@@ -21,6 +21,11 @@
         "dc_type"
     ],
 
+    "1a_valid_attributes": [
+        "foi_startDate",
+        "foi_updateDate"
+    ],
+
     "1b-n_valid_attributes": [
 
     ],
@@ -100,6 +105,11 @@
 
     "2e-b_valid_attributes": [
         "foi_decisionDate"
+    ],
+
+    "2e-i_valid_attributes": [
+        "foi_startDate",
+        "foi_endDate"
     ],
 
     "2f_valid_attributes": [

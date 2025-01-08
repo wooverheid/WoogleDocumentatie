@@ -5,6 +5,7 @@ Versie 2.0 - Universiteit van Amsterdam - Maik Larooij, Maarten Marx
     * [Attributen](#attributen)
     * [Verplichtingen](#verplichtingen)
 - [Categorie-specifieke metadata](#categorie-specifieke-metadata)
+    * [Wetten/algemeen verbindende voorschriften (categorie 1a)](#wetten-algemeen-verbindende-voorschriften--categorie-1a-)
     * [Nieuwsberichten (categorie 1b-n)](#nieuwsberichten--categorie-1b-n-)
     * [Toespraken (categorie 1b-t)](#toespraken--categorie-1b-t-)
     * [Bereikbaarheidsgegevens (categorie 1e)](#bereikbaarheidsgegevens--categorie-1e-)
@@ -14,6 +15,7 @@ Versie 2.0 - Universiteit van Amsterdam - Maik Larooij, Maarten Marx
     * [Agenda/besluitenlijst (categorie 2d)](#agenda-besluitenlijst--categorie-2d-)
     * [Adviezen (categorie 2e)](#adviezen--categorie-2e-)
     * [Advies: beslisnota (categorie 2e-b)](#advies--beslisnota--categorie-2e-b-)
+    * [Advies: internetconsultatie (categorie 2e-i)](#advies--internetconsultatie--categorie-2e-i-)
     * [Convenanten (2f)](#convenanten--2f-)
     * [Woo/Wob-verzoeken (categorie 2i)](#woo-wob-verzoeken--categorie-2i-)
     * [Onderzoeken (categorie 2j)](#onderzoeken--categorie-2j-)
@@ -62,6 +64,13 @@ Voor onze doeleinden verplichten wij bij het insturen enkel de volgende velden:
 
 ## Categorie-specifieke metadata
 Deze hebben we nu enkel samengesteld voor de categorie 'Woo/Wob-verzoeken'. De stukken bevatten dus de velden zoals genoemd in de Woo-basis, plus deze velden:
+
+### Wetten/algemeen verbindende voorschriften (categorie 1a)
+| **#** | **Technische naam** | **Naam**     | **Omschrijving**                                                                                 | **Voorbeeld**                                                                                                         |
+|-------|---------------------|--------------|--------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 1    | foi_startDate    | Originele inwerkingstreding | Datum van eerste inwerkingstreding.                                                | 2023-12-05                                                                                                          |
+| 2    | foi_updateDate    | Laatste inwerkingstreding | Datum van laatste inwerkingstreding (laatste update).                                                | 2025-01-01                                                                                                          |
+
 
 ### Nieuwsberichten (categorie 1b-n)
 **Geen extra velden**
